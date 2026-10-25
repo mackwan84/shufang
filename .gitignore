@@ -1,0 +1,22 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 本地凭证与环境配置；示例配置可提交
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# 本机插件路径及工作流临时产物
+/.v2c/
+/.video_agent/
+/.zcode/workflow-drafts/
+/.zcode/workflow-runs/
+
+# 后续开发产生的依赖、构建产物与日志
+node_modules/
+dist/
+coverage/
+*.log
+*.tsbuildinfo
